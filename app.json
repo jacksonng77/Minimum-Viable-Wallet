@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "mvw",
+    "description": "This project is really great.",
+    "slug": "test",
+    "privacy": "public",
+    "sdkVersion": "30.0.0",
+    "packagerOpts": {
+      "config": "./rn-cli.config.js"
+    },
+    "platforms": [
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "android": {
+      "package": "com.jackson.myapp"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jackson.myapp"
+    }
+  }
+}
