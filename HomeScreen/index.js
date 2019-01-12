@@ -8,7 +8,7 @@ import { createDrawerNavigator, createAppContainer } from "react-navigation";
 global.Web3 = require("web3");
 global.Tx = require("ethereumjs-tx");
 global.web3 = new Web3(
-  new Web3.providers.HttpProvider('https://ropsten.infura.io/v3/9b05e081c6f240059778c7eb191eac35'),
+  new Web3.providers.HttpProvider('https://ropsten.infura.io/v3/<add your api key here>'),
 );
 
 const x = createDrawerNavigator(
