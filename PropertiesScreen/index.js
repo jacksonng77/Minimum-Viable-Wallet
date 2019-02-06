@@ -19,17 +19,6 @@ import * as Yup from 'yup';
 import NativeInput from '../components/nativeinput';
 import Expo from 'expo';
 
-const api = user =>
-  new Promise((resolve, reject) => {
-    setTimeout(() => {
-      if (user.email === 'hello@gmail.com') {
-        reject({ email: 'Email already use' });
-      } else {
-        resolve();
-      }
-    }, 3000);
-  });
-
 export default class PropertiesScreen extends React.Component {
   constructor(props) {
     super(props);
